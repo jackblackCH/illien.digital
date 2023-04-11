@@ -651,6 +651,11 @@ ul,
 }
 
 @media print {
+  body {
+    margin: 20px 0;
+    padding: 20px 0;
+  }
+
   .mega {
     margin: 20px 0;
     /* page-break-before: always; */

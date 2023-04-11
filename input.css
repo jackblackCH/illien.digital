@@ -13,9 +13,14 @@
 }
 
 @media print {
-  .mega {
+  /* body {
     margin: 20px 0;
+    padding: 20px 0;
+  } */
+
+  .mega {
+    // margin: 20px 0;
     /* page-break-before: always; */
-    page-break-after: always;
+    /* page-break-after: always; */
   }
 }
