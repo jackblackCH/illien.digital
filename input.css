@@ -10,5 +10,12 @@
   p {
     @apply text-sm;
   }
-  /* ... */
+}
+
+@media print {
+  .mega {
+    margin: 20px 0;
+    /* page-break-before: always; */
+    page-break-after: always;
+  }
 }
