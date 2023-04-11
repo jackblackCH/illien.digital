@@ -603,12 +603,36 @@ ul,
   border-radius: 0.125rem;
 }
 
-.p-12 {
-  padding: 3rem;
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pr-12 {
+  padding-right: 3rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
 }
 
 .text-right {
@@ -651,23 +675,7 @@ ul,
 }
 
 @media print {
-  body {
-    margin: 20px 0;
-    padding: 20px 0;
-  }
-
-  .mega {
-    margin: 20px 0;
-    /* page-break-before: always; */
-    page-break-after: always;
-  }
-
   .print\:w-\[100px\] {
     width: 100px;
-  }
-
-  .print\:break-before-auto {
-    -moz-column-break-before: auto;
-         break-before: auto;
   }
 }
