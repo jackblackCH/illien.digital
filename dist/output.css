@@ -574,6 +574,10 @@ ul,
   display: grid;
 }
 
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+
 .list-inside {
   list-style-position: inside;
 }
